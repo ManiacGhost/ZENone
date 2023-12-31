@@ -1,0 +1,28 @@
+.app {
+  padding: 20px;
+}
+body{
+  background: antiquewhite;
+}
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #444444;
+  padding: 16px;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f2f2f2b9;
+}
+
+.product-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #bfdb06;
+  color: white;
+}
